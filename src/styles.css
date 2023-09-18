@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 5%;
+}
+
+.articleOne {
+  display: flex;
+  border: black solid 3px;
+  padding: 3%;
+  box-shadow: 8px 10px #58575759;
+}
+.info {
+  padding-left: 3%;
+}
+
+.articleTwo {
+  display: flex;
+  border: black solid 3px;
+  box-shadow: 5px 10px #888888;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(203, 240, 215);
+  font-family: monospace;
+  padding: 10%;
+  padding-top: 5%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+img {
+  box-shadow: 8px 8px #58575759;
+}
